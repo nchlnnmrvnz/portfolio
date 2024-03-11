@@ -20,7 +20,7 @@ export default function Home() {
           schoolExperienceList: ["Graduated in STEM strand with IT specialization", "President’s Scholar" ,"With honors"]
         },
         {
-          schoolLogo: "/schoolLogos/FEU-tech.png",
+          schoolLogo: "/schoolLogos/FEU-Tech.png",
           schoolName: "FEU Institute of Technology",
           schoolLocation: "Sampaloc, Manila",
           schoolBatch: 2024,
