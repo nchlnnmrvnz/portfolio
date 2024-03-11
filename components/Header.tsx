@@ -1,18 +1,14 @@
 import React from 'react';
 
-interface HeaderProps {
-  textProp: string | string[];
+interface websiteSection {
+  sectionTitle: string | string[];
 }
 
-const Header: React.FC<HeaderProps> = ({ textProp }) => {
+const Header: React.FC<websiteSection> = ({ sectionTitle: sections }) => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 text-center text-xl font-bold font-poppins">
-          {Array.isArray(textProp) ? (
-               textProp.map((text, index) => <h1 key={index} className="h-screen">{text}</h1>)
-          ) : (
-               <h1>{textProp}</h1>
-          )}
-    </main>
+    <div className="flex flex-col items-center justify-between uppercase text-center text-xl font-bold font-poppins p-5">
+      <h1>{sections}</h1>
+    </div>
   );
 };
 

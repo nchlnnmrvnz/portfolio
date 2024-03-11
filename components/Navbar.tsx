@@ -1,7 +1,7 @@
 const Navbar: React.FC = () => {
 
      return (
-          <nav className="w-screen fixed flex justify-between items-center top-0 right-0 left-0 px-6 py-3 bg-light-gray text-base font-montserrat">
+          <nav className="w-screen fixed flex justify-between items-center top-0 right-0 left-0 px-6 py-3 bg-dark-gray text-base font-montserrat">
                <a className="ml-10" href="#home">
                     AVA
                </a>
